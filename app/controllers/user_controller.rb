@@ -1,6 +1,6 @@
 class UserController < UIViewController
   attr_accessor :user
-  
+
   def initWithUser(user)
     initWithNibName(nil, bundle: nil)
     self.user = user
@@ -23,7 +23,7 @@ class UserController < UIViewController
         ]
       else
         label.frame = [
-          [10,20],
+          [10,75],
           label.frame.size
         ]
       end
